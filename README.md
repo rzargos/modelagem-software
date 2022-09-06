@@ -1,6 +1,6 @@
 # Requisitos Modelagem de Software
 
-<img src="./Arquivo README/logo.jpeg" alt="Logomarca">
+<img src="https://user-images.githubusercontent.com/99083147/188758942-18ff44dc-4fa1-461b-9371-a58da935ba39.jpeg" alt="Logomarca">
 
 > Aqui está postado os requisitos do sistema para um software de uma biblioteca
 
@@ -26,7 +26,7 @@
 
 ### Prototipação de telas
 
-<img src="./Arquivo README/telas.jpeg" alt="telas">
+<img src="https://user-images.githubusercontent.com/99083147/188759127-0145a09c-91e8-4493-98bd-f9b8f4828d2d.jpeg" alt="telas">
 
 
 [⬆ Voltar ao topo](#modelagem-software)<br>
