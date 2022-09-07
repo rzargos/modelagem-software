@@ -27,6 +27,3 @@
 ### Prototipação de telas
 
 <img src="https://user-images.githubusercontent.com/99083147/188759127-0145a09c-91e8-4493-98bd-f9b8f4828d2d.jpeg" alt="telas">
-
-
-[⬆ Voltar ao topo](#modelagem-software)<br>
