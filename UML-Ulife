@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T01:09:51.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.100" etag="d5xaD1lZrfnUj_I_xmfN" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T20:47:01.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.100" etag="45bt4SDWI9UrFY2nnwAq" version="20.3.3" type="github">
   <diagram id="lyp-HKyEfo1UgvCb0eKD" name="Página-1">
     <mxGraphModel dx="1381" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="610" y="10" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="9uzK3new7SoWDNwM2czM-3" value="Login" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="250" width="100" height="65" as="geometry" />
+          <mxGeometry x="314" y="255" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="9uzK3new7SoWDNwM2czM-5" value="Acessar notas" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="100" width="100" height="65" as="geometry" />
