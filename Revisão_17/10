@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T22:35:26.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.72" etag="faOQ8S7foD4n8pSFk04x" version="20.4.0" type="github">
-  <diagram id="0WXT4w6cn59jNbUXqyaO" name="Página-1">
+<mxfile host="app.diagrams.net" modified="2022-10-17T22:49:58.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.72" etag="r6Zr0NSmcThMD7nhB1rF" version="20.4.0" type="github" pages="2">
+  <diagram id="0WXT4w6cn59jNbUXqyaO" name="Caso de Uso">
     <mxGraphModel dx="1381" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -165,6 +165,47 @@
               <mxPoint x="630" y="410" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mL65yaJoEK_YN5UGqnaT" name="Diagrama de Classe">
+    <mxGraphModel dx="1381" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tazv_U78O16L-F-F83kn-1" value="Pessoa" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="350" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-2" value="Nome&lt;br&gt;CPF&lt;br&gt;Endereço&lt;br&gt;Telefone&lt;br&gt;Email" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tazv_U78O16L-F-F83kn-1">
+          <mxGeometry y="29" width="190" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tazv_U78O16L-F-F83kn-6" target="tazv_U78O16L-F-F83kn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-6" value="Aluno" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-7" value="Matrícula&lt;br&gt;&lt;br&gt;Visualizar falta&lt;br&gt;Realizar matrícula&lt;br&gt;Visualizar nota&lt;br&gt;Responder atividades&lt;br&gt;Falar com coordenador" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tazv_U78O16L-F-F83kn-6">
+          <mxGeometry y="29" width="210" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-9" value="Professor" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-10" value="Formação&lt;br&gt;Matrícula&lt;br&gt;&lt;br&gt;&lt;br&gt;Lançar faltas&lt;br&gt;Cadastrar atividades&lt;br&gt;Disponibilizar aulas" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tazv_U78O16L-F-F83kn-9">
+          <mxGeometry y="29" width="210" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tazv_U78O16L-F-F83kn-10" target="tazv_U78O16L-F-F83kn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-12" value="Coordenador" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-13" value="Setor&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Matricular os alunos&lt;br&gt;Retirar faltas" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="tazv_U78O16L-F-F83kn-12">
+          <mxGeometry y="29" width="210" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="tazv_U78O16L-F-F83kn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.432;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tazv_U78O16L-F-F83kn-13" target="tazv_U78O16L-F-F83kn-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
